@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+padding: 20px ;
+background-color:black;
+height: 60px;
+color: white;
+
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+nav div{
+    display: flex;
+    justify-content:space-between ;
+}
+
+ul{
+    display: flex;
+list-style: none;
+}
+
+li a{
+    color:white;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: red;
+    /* background-color: blanchedalmond;
+    cursor:pointer; */
+}
+
+nav li:last-child a{
+    background-color: red;
+    padding: 6px 12px;
+    border-radius: 5px;
+ }     /*last child is last element */
+
+nav li:last-child a:hover{
+    background-color:rgb(249, 86, 119);
+    color: black;
+}
+
+nav a.active{
+    color: red;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+}
