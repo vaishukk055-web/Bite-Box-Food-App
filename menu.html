@@ -3,9 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu File</title>
+    <title>Menu file</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1da75d87d1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel=" icon" href="/Images/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+NZ:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
 </head>
 <body>
-    <h1>Menu Page</h1>
+     <!-- Header Section -->
+    <header>
+      <nav>
+        <div> 
+            <!-- Logo -->
+            <!-- <h2>Bite<span style="color:red;">Box</span></h2> -->
+             <img src="/Images/logo bitebox.png" alt="logo" width="100px" height="40px">
+
+            <!-- Menu -->
+            <ul>
+
+              <li><a href="home.html" class="active">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="bitedeal.html">Bite Deal</a></li>
+              <li><a href="cart.html">Cart<i class="fa-solid fa-cart-arrow-down"></i></a></li>
+              <li><a href="login.html">Login<i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <!--end header section-->
+
+    <div class="category-icons">
+
+      <div class="icon-box">
+          <img src="/Images/AllMenu.jpg" alt="">
+           <p>All</p>
+      </div>
+
+       <div class="icon-box">
+          <img src="/Images/burger.jpg" alt="">
+           <p>Burger</p>
+      </div>
+
+       <div class="icon-box">
+          <img src="/Images/pizza.jpg" alt="">
+           <p>Pizza</p>
+      </div>
+
+       <div class="icon-box">
+          <img src="/Images/pasta.jpg" alt="">
+           <p>Pasta</p>
+      </div>
+
+       <div class="icon-box">
+          <img src="/Images/Fries.jpg" alt="">
+           <p>Fries</p>
+      </div>
+
+       <div class="icon-box">
+          <img src="/Images/Coffee.jpg" alt="">
+           <p>Coffee</p>
+      </div>
+
+       <div class="icon-box">
+          <img src="/Images/Momos.jpg" alt="">
+           <p>Momos</p>
+      </div>
+
+    </div>
+
+
+    <!--start menu section-->
+    <section class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-container">
+        <div class="card">
+            <img src="/Images/burger.jpg" alt="">
+            <h3>Burger</h3>
+            <p>Cheesy Burger</p>
+            <span>199Rs</span>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="/Images/pasta.jpg" alt="">
+            <h3>White Souce Pasta</h3>
+            <p>Creamy and Soft</p>
+            <span>249Rs</span>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="/Images/pizza.jpg" alt="">
+            <h3>Classic Pizza</h3>
+            <p>Cripes and Melting</p>
+            <span>149Rs</span>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="/Images/pannner.jpg" alt="">
+            <h3>Paneer Tikka</h3>
+            <p> Full of Taste and Chilly </p>
+            <span>299Rs</span>
+            <button>Add to Cart</button>
+        </div>
+
+        
+    </div>
+        
+    </section>
+    <!--end menu section-->
 </body>
 </html>
