@@ -1,11 +1,187 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart File</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1da75d87d1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel=" icon" href="/Images/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+NZ:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
 <body>
-    <h1>Cart Page</h1>
+
+    <header>
+      <nav>
+        <div> 
+             <img src="/Images/logo bitebox.png" alt="logo" width="100px" height="40px">
+
+            <!-- Menu -->
+            <ul>
+
+              <li><a href="home.html" class="active">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="bitedeal.html">Bite Deal</a></li>
+              <li><a href="cart.html">Cart<i class="fa-solid fa-cart-arrow-down"></i></a></li>
+              <li><a href="login.html">Login<i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- HEADER SECTION END -->
+     
+        <!-- START CART SECTION -->
+    <section class="cart"> <br> <br> <br>
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Qunatity</th>
+                <th>Total</th>
+                <th>Remove</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="item">
+                        <img src="/Images/burger1.jpg" alt="">
+                        <div>
+                            <h4>Cheesy Burger</h4>
+                            <p>Full With Veggis and Souces</p>
+                        </div>
+                    </td>
+
+                    <td>Rs.199</td>
+                    <td>
+                        <div class="qty-box">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                        </div>
+                    </td>
+                    <td>Rs.199</td>
+                    <td>
+                        <button class="remove">X</button>
+                    </td>
+                </tr>
+
+
+                <!-- <tr class="grand-total">
+                    <td colspan="3">Grand Total</td>
+                    <td>Rs.199</td>
+                    <td>
+                        <button>Proceed</button>
+                    </td>
+                </tr> -->
+                <tr>
+                    <td class="item">
+                        <img src="/Images/pasta1.jpg" alt="">
+                        <div>
+                            <h4>Red Souce Pasta</h4>
+                            <p>Sofy and flavorful</p>
+                        </div>
+                    </td>
+
+                    <td>Rs.249</td>
+                    <td>
+                        <div class="qty-box">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                        </div>
+                    </td>
+                    <td>Rs.249</td>
+                    <td>
+                        <button class="remove">X</button>
+                    </td>
+                </tr>
+                    <tr>
+                    <td class="item">
+                        <img src="/Images/pizza1.jpg" alt="">
+                        <div>
+                            <h4>Veggi Pizza</h4>
+                            <p>Full of Flavoures</p>
+                        </div>
+                    </td>
+
+                    <td>Rs.229</td>
+                    <td>
+                        <div class="qty-box">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                        </div>
+                    </td>
+                    <td>Rs.229</td>
+                    <td>
+                        <button class="remove">X</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="item">
+                        <img src="/Images/Coffee.jpg" alt="">
+                        <div>
+                            <h4>Cold Coffee</h4>
+                            <p>Sweet and Refresh</p>
+                        </div>
+                    </td>
+
+                    <td>Rs.99</td>
+                    <td>
+                        <div class="qty-box">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                        </div>
+                    </td>
+                    <td>Rs.99</td>
+                    <td>
+                        <button class="remove">X</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="item">
+                        <img src="/Images/Momos.jpg" alt="">
+                        <div>
+                            <h4>Fried Panner Momos</h4>
+                            <p>Hot and Crispy</p>
+                        </div>
+                    </td>
+
+                    <td>Rs.149</td>
+                    <td>
+                        <div class="qty-box">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                        </div>
+                    </td>
+                    <td>Rs.149</td>
+                    <td>
+                        <button class="remove">X</button>
+                    </td>
+                </tr>
+
+                <tr class="grand-total">
+                    <td colspan="3">Grand Total</td>
+                    <td>Rs.925</td>
+                    <td>
+                        <button>Proceed</button>
+                    </td>
+                </tr>
+
+
+
+
+            </tbody>
+        </table>
+    </section>
 </body>
 </html>
